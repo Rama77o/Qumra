@@ -1,0 +1,140 @@
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.sw {
+  counter-reset: num var(--num);
+  font: 800 40px system-ui;
+  padding: 2rem;
+  margin-bottom: -35px;
+}
+
+.sw1 {
+  animation: counter1 2s infinite alternate ease-in-out;
+}
+
+.sw1::after,
+.sw2::after,
+.sw3::after {
+  content: counter(num);
+}
+
+.sw2 {
+  animation: counter2 2s infinite alternate ease-in-out;
+}
+
+/* .sw2::after {
+    content: counter(num);
+  } */
+.sw3 {
+  animation: counter3 2s infinite alternate ease-in-out;
+}
+
+/* .sw3::after {
+    content: counter(num);
+  } */
+
+@keyframes counter1 {
+  from {
+    --num: 0;
+  }
+
+  to {
+    --num: 100;
+  }
+}
+
+@keyframes counter2 {
+  from {
+    --num: 0;
+  }
+
+  to {
+    --num: 100;
+  }
+}
+
+@keyframes counter3 {
+  from {
+    --num: 0;
+  }
+
+  to {
+    --num: 13;
+  }
+}
+
+.state {
+  background-color: #2e5749;
+  margin-top: 85px;
+  padding: 3rem;
+  text-align: center;
+}
+
+.state .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f3c623;
+  color: white;
+  width: 50%;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  border-radius: 85px;
+}
+
+.state .num {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.state h1 {
+  font-weight: bold;
+  position: relative;
+  padding-top: 27px;
+}
+
+.state h1::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 47px;
+  background-color: white;
+  left: -24px;
+}
+
+@media screen and (max-width: 992px) {
+  .state .content {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .state .content {
+    flex-direction: column;
+    width: 37%;
+    border-radius: 122px;
+    padding-bottom: 74px;
+  }
+
+  .state h1::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 5px;
+    width: 168px;
+    bottom: -15px;
+  }
+
+  .state .num {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .state .content {
+    width: 45%;
+  }
+}

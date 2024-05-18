@@ -1,0 +1,37 @@
+.fireworks {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.fireworks:before,
+.fireworks:after {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #f00;
+  animation: fireworks 2s ease-in-out infinite;
+}
+
+.fireworks:after {
+  top: auto;
+  bottom: -50px;
+  left: auto;
+  right: -50px;
+  animation-delay: 1s;
+}
+
+@keyframes fireworks {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}

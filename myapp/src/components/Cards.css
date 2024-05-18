@@ -1,0 +1,32 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  margin: 0 25rem;
+}
+.cards .single-card {
+  grid-column: span 2;
+}
+
+.cards .single-card .img {
+  right: 218px;
+}
+
+@media screen and (max-width: 1460px) {
+  .cards {
+    margin: 0 20rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cards {
+    margin: 0;
+  }
+}

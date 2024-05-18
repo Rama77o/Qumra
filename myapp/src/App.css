@@ -1,0 +1,41 @@
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+body {
+  direction: rtl;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar .link {
+  margin-right: 15px;
+}
+
+.containers {
+  padding: 0 15rem;
+}
+
+@media screen and (max-width: 830px) {
+  .containers {
+    padding: 0;
+  }
+}
