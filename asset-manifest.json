@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Qumra/static/css/main.a65a2d17.css",
+    "main.js": "/Qumra/static/js/main.a80827b9.js",
+    "static/js/787.d3befce1.chunk.js": "/Qumra/static/js/787.d3befce1.chunk.js",
+    "static/media/card2.png": "/Qumra/static/media/card2.27c0bcb6eb8b3481c404.png",
+    "static/media/card4.png": "/Qumra/static/media/card4.7add1257c8e7393fb947.png",
+    "static/media/card1.png": "/Qumra/static/media/card1.1fbaafa1950d35eafd4e.png",
+    "static/media/card5.png": "/Qumra/static/media/card5.f66835782fb55018770d.png",
+    "static/media/card6.png": "/Qumra/static/media/card6.6a7c91cf936e1befc50c.png",
+    "static/media/card7.png": "/Qumra/static/media/card7.bdf7059f89f5ab0fd054.png",
+    "static/media/card3.png": "/Qumra/static/media/card3.3cf07e454fa970b65961.png",
+    "static/media/banner4.jpeg": "/Qumra/static/media/banner4.bf980838dd8830330670.jpeg",
+    "static/media/cardImage2.jpeg": "/Qumra/static/media/cardImage2.8e16a385a1b5d8e80556.jpeg",
+    "static/media/cardImage3.jpeg": "/Qumra/static/media/cardImage3.dd872ca24b2733ebbe0b.jpeg",
+    "static/media/we.png": "/Qumra/static/media/we.b7ffc8bf05d4cb9ecc52.png",
+    "static/media/logo.png": "/Qumra/static/media/logo.d681365e67840b50a4f2.png",
+    "static/media/whatsApp.png": "/Qumra/static/media/whatsApp.f9e3e7b51134d9fef8a0.png",
+    "index.html": "/Qumra/index.html",
+    "main.a65a2d17.css.map": "/Qumra/static/css/main.a65a2d17.css.map",
+    "main.a80827b9.js.map": "/Qumra/static/js/main.a80827b9.js.map",
+    "787.d3befce1.chunk.js.map": "/Qumra/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a65a2d17.css",
+    "static/js/main.a80827b9.js"
+  ]
+}
